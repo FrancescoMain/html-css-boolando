@@ -21,6 +21,11 @@
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -39,15 +44,27 @@ div.top.bigcontainer {
 }
 
 .nav {
-    /* DEBUG */
-    border: 2px gray solid;
-    min-width: 120px;
-    height: 100%;
+    align-items: center;    
+  
 }
 
-div div.page.flex {
-    /* debug */
-    min-height: 70px;
+
+
+ul.flex {
+    list-style: none;
+}
+
+ul.flex li {
+    margin: 0 10px;
+}
+
+.logo {
+    height: 20px;
+}
+
+div i {
+    color: white;
+    margin: 0 3px;
 }
 
 
