@@ -105,7 +105,7 @@ main {
 .flexstart {
     display: flex;
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
 }
 
 .label {
