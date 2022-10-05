@@ -41,6 +41,7 @@ div.top.bigcontainer {
     background-color: rgb(255, 102, 0);
     min-height: 70px;
     min-width: 100%;
+    z-index: 500;
 }
 
 .nav {
@@ -62,7 +63,7 @@ ul.flex li {
     height: 20px;
 }
 
-div i {
+.icons {
     color: white;
     margin: 0 3px;
 }
@@ -75,22 +76,107 @@ main {
     margin: 70px;
 }
 
+
+.imgcont {
+    margin-top: 70px;
+}
+
 .img {
-    /* DEBUG */
-    height: 500px;
-    min-width: 410px;
-    border: 2px gray solid;
-    margin: 70px 0;
+    height: 580px;
+
+
+}
+
+.hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.rel {
+    position: relative;
+}
+
+.rel:hover  .hover{
+    display: block;
+}
+
+.flexstart {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+}
+
+.label {
+    background-color: red;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: white;
+    margin-right: 5px;
+
+}
+ div.green {
+    background-color: green;
+ }
+
+.button {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.cuore {
+    color: black;
+    text-align: center;
+    
+}
+
+.cuorer {
+    color: rgb(240, 11, 11);
+    position: absolute;
+    text-align: center;
+    display: none;
 
 }
 
 
+.centred {
+    display: flex;
+    justify-content: center;
+}
 
+.button:hover .cuorer{
+    display: inline-block;
+}
 
+.marca {
+    color: lightgray;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.off {
+    color: red;
+}
+
+.price {
+    text-decoration: line-through;
+    color: grey;
+}
 
 
 
 /* regole foot */
+
+footer {
+    margin-top: 70px;
+}
 
 h3, h4{
     color: white;
