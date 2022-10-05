@@ -40,12 +40,20 @@ div.top.bigcontainer {
 
 .nav {
     /* DEBUG */
-    border: 1px gray solid;
+    border: 2px gray solid;
     min-width: 120px;
-    height: 70px;
+    height: 100%;
 }
 
 div.page.flex {
     /* debug */
     min-height: 70px;
+}
+
+/* regole foot */
+.bot {
+    background-color: black;
+    /* debug */
+    min-height: 100px;
+    margin-top: 70px;
 }
