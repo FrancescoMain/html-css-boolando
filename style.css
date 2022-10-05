@@ -45,15 +45,37 @@ div.top.bigcontainer {
     height: 100%;
 }
 
-div.page.flex {
+div div.page.flex {
     /* debug */
     min-height: 70px;
 }
+
+
+
+/* regole main */
+
+main {
+    margin: 70px;
+}
+
+.img {
+    /* DEBUG */
+    height: 500px;
+    min-width: 410px;
+    border: 2px gray solid;
+    margin: 70px 0;
+
+}
+
+
+
+
+
+
 
 /* regole foot */
 .bot {
     background-color: black;
     /* debug */
     min-height: 100px;
-    margin-top: 70px;
 }
