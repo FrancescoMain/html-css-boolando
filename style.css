@@ -1,0 +1,51 @@
+/* Regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page {
+    min-width: 1260px;
+}
+
+.bigcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* regole head */
+
+div.top.bigcontainer {
+    position: fixed;
+    top: 0;    
+}
+
+.top {
+    background-color: rgb(255, 102, 0);
+    min-height: 70px;
+    min-width: 100%;
+}
+
+.nav {
+    /* DEBUG */
+    border: 1px gray solid;
+    min-width: 120px;
+    height: 70px;
+}
+
+div.page.flex {
+    /* debug */
+    min-height: 70px;
+}
